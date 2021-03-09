@@ -9,4 +9,5 @@
 | 5. | [Palindrome Check](https://www.algoexpert.io/questions/Palindrome%20Check) | Strings | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Palindrome%20Check/src/Program.java) |
 | 6. | [Caesar Cipher Encryptor](https://www.algoexpert.io/questions/Caesar%20Cipher%20Encryptor) | Strings | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Caesar%20Cipher%20Encryptor/src/Program.java) |
 | 7. | [Run-Length Encoding](https://www.algoexpert.io/questions/Run-Length%20Encoding) | Strings | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Run-Length%20Encoding/src/Program.java) |
-| 8. | [Generate Document](https://www.algoexpert.io/questions/Generate%20Document) | Strings | Easy | [Click here]() |
+| 8. | [Generate Document](https://www.algoexpert.io/questions/Generate%20Document) | Strings | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Generate%20Document/src/Program.java) |
+| 9. | [Sorted Squared Array](https://www.algoexpert.io/questions/Sorted%20Squared%20Array) | Arrays | Easy | [Click here]() |
