@@ -1,5 +1,7 @@
 # :sparkles: [AlgoExpert](https://www.algoexpert.io/product) :sparkles:
 
+##### [Data Structures and Algorithms Crash Course](https://github.com/Harishankar-GitHub/AlgoExpert/tree/main/Data%20Structures%20and%20Algorithms%20Crash%20Course)
+
 | No. | Question | Category | Difficulty | Solution
 |--|--|--|--|--|
 | 1. | [Two Number Sum](https://www.algoexpert.io/questions/Two%20Number%20Sum) | Arrays | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Two%20Number%20Sum/src/Program.java) |
