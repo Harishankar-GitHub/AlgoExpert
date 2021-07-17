@@ -31,6 +31,7 @@ Space Complexity
 	
 Memory
 -
+
 - The data in the memory is actually ***stored in the form of bits***.
 - Bits are ***0's and 1's***.
 
@@ -40,7 +41,7 @@ Memory
 
 - So, ***2 power 8*** is the ***maximum value*** that can be represented in ***1 byte***.
 
-> *Number 1 is stored in the form of binary numbers like 
+> *Numbers stored in the form of binary numbers: 
 1 = 0000 0001
 2 = 0000 0010
 3 = 0000 0011 etc.*
@@ -72,8 +73,38 @@ Memory
 For a 64-bit integer, it will take 8 memory slots.
 Long would take more memory slots.***
 
-- So Number 1 is stored like.. 
-> memorySlot1[0000 00001] memorySlot2[0000 0000] memorySlot3[0000 0000] memorySlot4[0000 0000]
+- So ***Number 1 is stored like***.. 
+
+| MemorySlot - 1 - [0000 00001] | MemorySlot - 2 - [0000 0000] | MemorySlot - 3 - [0000 0000] | MemorySlot - 4 -[0000 0000] |
+|--|--|--|--|
+
 
 - Why the byte that has Number 1 is stored in the left most byte ?
 ***[Endianness](https://en.wikipedia.org/wiki/Endianness)*** is a concept of ordering of bytes when representing a number in binary.
+
+- ***How a list of numbers is stored ?***
+	- The list of numbers is also stored the same way as Number 1 is stored.
+	- For example: To store the list [1,2], we need 8 memory slots.
+	- Because, 4 memory slots to store Number 1 and another 4 for Number 2.
+	- Thus we need 8 back to back memory slots.
+
+- ***How a string is stored ?***
+	- A character can be mapped to a number.
+	- [ASCII - American Standard Code for Information Interchange](https://en.wikipedia.org/wiki/ASCII)
+		- [ASCII Table - W3Schools](https://www.w3schools.com/charsets/ref_html_ascii.asp)
+		- [ASCII Table - https://ascii.cl/](https://ascii.cl/)
+	- For instance, Character
+		- ***"A"*** is mapped to ***65***
+		- **"B"** is mapped to ***66*** and so on.
+	- ***Every character*** in the string is ***mapped to a number using*** a mapping like ***ASCII***.
+	- And those ***numbers*** are going to be ***turned to a bunch of bytes***.
+	- And those ***bytes are stored as a list of numbers***.
+	- This is how a string is stored.
+
+- ***Pointers***
+	- We can store the data not only in the form of Numbers/Strings but also ***the reference of another data***.
+	- This is called Pointers.
+	- ***For example***:
+		- There's a ***memory slot with address 00010010***.
+		- ***In this memory slot***, we need to ***store the data*** that is in ***another memory slot***.
+		- So ***instead of storing the data again*** here, ***we can store the memory address of another memory slot*** where the data that we need is actually present.
