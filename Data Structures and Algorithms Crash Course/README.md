@@ -178,3 +178,50 @@ Big O Notation
 > For example, some sorting algorithms have different time complexities depending on the layout of elements in their input array. In rare cases, their time complexity will be much worse than in more common cases. Similarly, an algorithm that takes in a string and performs special operations on uppercase characters might have a different time complexity when run on an input string of only uppercase characters vs. on an input string with just a few uppercase characters.
 
 > Thus, when describing the time complexity of an algorithm, it can sometimes be helpful to specify whether the time complexity refers to the average case or to the worst case (e.g., "this algorithm runs in O(nlog(n)) time on average and in O(n<sup>2</sup>) time in the worst case").
+
+### Example
+
+Let's have an ***Array a = [. . .]***
+***Length*** of the Array is ***N***
+
+We have ***3 algorithms***,
+- ***A<sub>1</sub>(a) => 1 + a[0]***
+- ***A<sub>2</sub>(a) => sum(a)***
+- ***A<sub>3</sub>(a) => pair(a)***
+> ***Note: Assuming the array is always non-empty***
+
+##### 1st Algorithm (A<sub>1</sub>(a))
+> The logic of 1st Algorithm is 1 + a[0] which is nothing but ***adding 1 to the first element*** in the array.
+
+##### 2nd Algorithm (A<sub>2</sub>(a))
+> The logic of 2nd Algorithm is just ***adding all the elements*** in the array.
+
+##### 2nd Algorithm (A<sub>3</sub>(a))
+> The logic of 3rd Algorithm is to print the pairs.
+> For instance, if the array had 3 elements [1,2,3] then the ***pairs*** would look like,
+> ***1,1 | 1,2 | 1,3***
+> ***2,3 | 2,2 | 2,3***
+> ***3,1 | 3,2 | 3,3***
+
+> If we have an ***array with 3 elements*** [1,2,3], then the ***execution time*** of all these algorithms might be ***very quick and similar, almost instant***.
+
+> If we ***increase the size of the array to 10,000 elements*** ?
+> Here we can ***notice the difference*** in the ***execution time*** between all 3 algorithms.
+
+>- ***A<sub>1</sub>(a)*** ***will always have the same execution time*** irrespective of the array length.
+>- ***A<sub>2</sub>(a)*** ***might take couple of seconds*** as it needs to calculate the sum of all the elements in the array.
+>- ***A<sub>3</sub>(a)*** ***will take a lot of time*** as it needs to cover more number of combinations as the length of the array increases.
+
+- So, one ***cannot determine the time complexity*** of an algorithm ***in terms of seconds or milliseconds etc***.
+- We can clearly see that ***if the size of the array increases***, all 3 algorithms have ***difference in its execution time***.
+- So the ***speed*** of these 3 algorithms clearly ***depend on the size of the array***.
+
+>* So the Time Complexity of ***A<sub>1</sub>(a)*** is O(1) or Constant.
+	- Because it doesn't depend on the size of the array.
+>* The Time Complexity of ***A<sub>2</sub>(a)*** is O(n) or Linear.
+	- As the size of the array increases, the time complexity also increases.
+>* The Time Complexity of ***A<sub>3</sub>(a)*** is O(n<sup>2</sup>) or Quadratic.
+	- For each iteration, we have to traverse through each element in the array.
+	- So the time complexity is n * n that is O(n<sup>2</sup>) or Quadratic.
+
+> This way of measuring applies to Space Complexity as well.
