@@ -225,3 +225,67 @@ We have ***3 algorithms***,
 	- So the time complexity is n * n that is O(n<sup>2</sup>) or Quadratic.
 
 > This way of measuring applies to Space Complexity as well.
+
+Logarithm
+-
+
+> A mathematical concept that's widely used in Computer Science and that's defined by the following equation:
+> **log<sub>b</sub>(x) = y** if and only if **b<sup>y</sup> = x**
+
+> In the context of coding interviews, the logarithm is used to describe the complexity analysis of algorithms, and its usage always implies a logarithm of base **2**. In other words, the logarithm used in the context of coding interviews is defined by the following equation:
+> **log<sub>2</sub>(n) = y** if and only if **2<sup>y</sup> = n**
+> This can also be written like: **log(n) = y** if and only if **2<sup>y</sup> = n**
+
+> So what is log(1) ? The answer is the value of **y** in **2<sup>y</sup> = n**
+> **log(1) = 2<sup>0</sup> = 1**, so **log(1) = 0**
+> **log(4) = 2<sup>2</sup> = 4**, so **log(4) = 2**
+> **log(16) = 2<sup>4</sup> = 4**, so **log(16) = 4**
+
+> Basically to find **log(N)** we need to find **2<sup>?</sup> = N**
+
+> **Another concept:**
+> 2<sup>x</sup> = 2<sup>4</sup> = 2<sup>3+1</sup> = 2<sup>3</sup> * 2
+> When the power is increased by 1, the value is doubled.
+> In this example: 2<sup>4</sup> = 16
+> 2<sup>5</sup> = 32
+> Here, the power is increased from 4 to 5 and the value is doubled from 16 to 32.
+> The more the value increases, the exponent or the power is increased by tiny amount.
+> So this relation 2<sup>?</sup> = N is equal to log(N) = y (y is ?)
+> This tells what log(N) really represents.
+> log(N) increases only by a tiny amount as N increases.
+> When N doubles, log(N) only increases by 1.
+
+> When we relate this with the Time Complexity Analysis, when we have an algorithm with a Time Complexity of log(N), that is incredibly good because that means that as the input increases/doubles, the number of elementary operations that we perform in the algorithm only increases by 1.
+
+> Hence the log(N) complexity is exceedingly better than a linear complexity.
+> Even though the O(N), linear time is already pretty good for an algorithm, log(N) time is going to be way better as the size of the input increases.
+
+> Why log(N) is so powerful ?
+> if **2<sup>20</sup> = 1 Million** (For example)
+> **2<sup>30</sup> = 1 Billion** (For example)
+> The value increased from 1 Million to 1 Billion which is a huge difference but the log value increased just by 10 which is very small.
+> The complexity of log(N) really represents a complexity that is not increased fast as the size of the input increases.
+
+> **Example with an algorithm:**
+> There's an array [0,1,2,3,4,5,6,7]
+> We cut it half and eliminate the right side till we get 1 number and we process it.
+> So after the first operation the array will look like [0,1,2,3]
+> Then after second operation [0,1]
+> Then after third operation [0]
+> At every step, the algorithm cuts the array into half.
+> In total, the amount of operations that we perform with this algorithm on the original array is basically equal to log(N).
+> In this case log(8) where 8 is the size of the array.
+> log(8) = 3 and we performed 3 operations in total in the algorithm.
+
+> Now let us double the size of the array and we apply the same algorithm.
+> [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+> In the first operation the array becomes half [0,1,2,3,4,5,6,7]
+> After that the number of operations required to complete the algorithm is exactly equal when we had 8 elements in the previous example.
+> The total operations when size is 8 is 3 and when the size is 16, the operations is 4, just increased by 1.
+> Here, we doubled the input (N) but the log(N) is just increased by 1.
+
+> So this algorithm has a time complexity of log(N).
+> The number of operations that we perform with the algorithm increases only by 1 as we double the size of input. 
+
+> In plain English, if an algorithm has a logarithmic time complexity (**O(log(n)**), where n is the size of the input), then whenever the algorithm's input doubles in size (i.e., whenever **n** doubles), the number of operations needed to complete the algorithm only increases by one unit. Conversely, an algorithm with a linear time complexity would see its number of operations double if its input size doubled.
+> As an example, a linear-time-complexity algorithm with an input of size 1,000 might take roughly 1,000 operations to complete, whereas a logarithmic-time-complexity algorithm with the same input would take roughly 10 operations to complete, since **2<sup>10</sup> ~= 1,000**.
