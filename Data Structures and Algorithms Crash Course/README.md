@@ -289,3 +289,44 @@ Logarithm
 
 > In plain English, if an algorithm has a logarithmic time complexity (**O(log(n)**), where n is the size of the input), then whenever the algorithm's input doubles in size (i.e., whenever **n** doubles), the number of operations needed to complete the algorithm only increases by one unit. Conversely, an algorithm with a linear time complexity would see its number of operations double if its input size doubled.
 > As an example, a linear-time-complexity algorithm with an input of size 1,000 might take roughly 1,000 operations to complete, whereas a logarithmic-time-complexity algorithm with the same input would take roughly 10 operations to complete, since **2<sup>10</sup> ~= 1,000**.
+
+Arrays
+-
+
+> A linear collection of data values that are accessible at numbered indices, starting at index 0.
+> The following are an array's standard operations and their corresponding time complexities:
+
+ - **Accessing a value at a given index:** O(1)
+ - **Updating a value at a given index:** O(1)
+ - **Inserting a value at the beginning:** O(n)
+ - **Inserting a value in the middle:** O(n)
+ - **Inserting a value at the end:**
+	 - Amortized (gradually write off the initial cost of an asset over a period) O(1) when dealing with a **dynamic array**
+		 - In ***Java***, ***Array is Static Array*** and ***ArrayList is Dynamic Array***.
+		 - In a Dynamic Array, when 1<sup>st</sup> element is inserted, the array looks like: ***[1]***
+		 - When 2<sup>nd</sup> element is inserted, the array looks like: ***[1,2]***
+		 - When the 3<sup>rd</sup> element needs to be inserted, the array automatically doubles the memory allocated. Now the array becomes ***[1,2, , ]***
+		 - And then the 3rd element is inserted: ***[1,2,3, ]***
+		 - So the ***memory is doubled when there's 1,2,4,8.. elements and so on***.
+		 - This can also be written as ***O(1), O(2), O(4), O(8).. and so on***.
+		 - When the last element is inserted, the memory will be doubled.
+		 - Let's consider the last element as ***N***.
+		 - Before that, the memory will be doubled when there is ***N/2*** elements.
+		 - Before that it will be doubled when there is ***N/4, N/8.. and so on till 1***.
+		 - The ***series N + N/2 + N/4 + N/8 .. till 1*** is mathematically known as ***2N***.
+		 - So the insertion operation ***typically takes O(2N)*** which can be written as ***O(N)***
+		 - ***O(N)*** is ***mathematically correct***.
+		 - But ***conceptually***, insertion ***takes O(N) only when the memory of the array gets doubled***.
+		 >- For example: if an array has ***8 elements*** and we try to ***insert 9<sup>th</sup> element***, the memory of the array gets ***doubled and becomes 16***. And then the 9<sup>th</sup> element gets inserted. After this, 10<sup>th</sup>, 11<sup>th</sup>, 12<sup>th</sup>, 13<sup>th</sup>, 14<sup>th</sup>, 15<sup>th</sup> and 16<sup>th</sup> elements are inserted at ***O(1) time complexity***.
+		 >- As we get lot of O(1) insertions and very few O(N) insertions, the number of O(N) insertions become negligible. Therefore we ***conceptually*** consider ***O(1) as the insertion time in the Dynamic Array***.
+	 - O(n) when dealing with a **static array**
+ - **Removing a value at the beginning:** O(n)
+ - **Removing a value at the middle:** O(n)
+  - **Removing a value at the end:** O(1)
+  - **Copying the array:** O(n)
+
+> A ***static array*** is an implementation of an array that allocates a fixed amount of memory to be used for storing the array's values. Appending values to the array therefore involves copying the entire array and allocating new memory for it, accounting for the extra space needed for the newly appended value. This is a linear-time operation.
+
+> A ***dynamic array*** is an implementation of an array that preemptively allocates double the amount of memory needed to store the array's values. Appending values to the array is a constant-time operation until the allocated memory is filled up, at which point the array is copied and double the memory is once again allocated for it. This implementation leads to an amortized constant-time insertion-at-end operation. 
+
+> A lot of popular programming languages like JavaScript and Python implement arrays as dynamic arrays.
