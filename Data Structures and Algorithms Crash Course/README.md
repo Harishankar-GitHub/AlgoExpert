@@ -1,3 +1,4 @@
+
 # AlgoExpert - Data Structures and Algorithms Crash Course
 
 Complexity Analysis
@@ -40,6 +41,8 @@ Memory
 
 > Short for **binary digit**, a bit is a fundamental unit of information in Computer Science that represents a state with one of two values, typically **0** and **1**. 
 
+---
+
 - ***Byte***
 
 > A group of 8 **bits**. For example 01101000 is a byte.
@@ -51,6 +54,8 @@ Memory
 	- 2: 00000010
 	- 3: 00000011
 	- 4: 00000100
+
+---
 
 - ***Fixed-Width Integer*** 
 
@@ -64,6 +69,8 @@ Memory
 
 > Regardless of how large an integer is, its fixed-width-integer representation is, by definition, made up of a constant number of bits.
 > It follows that, regardless of how large an integer is, an operation performed on its fixed-width-integer representation consists of a constant number of bit manipulations, since the integer is made up of a fixed number of bits.
+
+---
 
 - ***Memory***
 
@@ -164,14 +171,15 @@ Big O Notation
 > Variables used in Big O notation denote the size of inputs to algorithms. For example, ***O(n)*** might be the time complexity of an algorithm that traverses through an array of length ***n***; similarly, ***O(n+m)*** might be the time complexity of an algorithm that traverses through an array of length ***n*** and through a string of length ***m***.
 
 > The following are examples of common complexities and their Big O notations, ordered from fastest to slowest:
->- Constant: O(1)
->- Logarithmic: O(log(n))
->- Linear: O(n)
->- Log-linear: O(nlog(n))
->- Quadratic: O(n<sup>2</sup>)
->- Cubic: O(n<sup>3</sup>)
->- Exponential: O(2<sup>n</sup>)
->- Factorial: O(n!)
+
+- ***Constant:*** O(1)
+- ***Logarithmic:*** O(log(n))
+- ***Linear:*** O(n)
+- ***Log-linear:*** O(nlog(n))
+- ***Quadratic:*** O(n<sup>2</sup>)
+- ***Cubic:*** O(n<sup>3</sup>)
+- ***Exponential:*** O(2<sup>n</sup>)
+- ***Factorial:*** O(n!)
 
 > Note that in the context of coding interviews, Big O notation is usually understood to describe the ***worst-case*** complexity of an algorithm, even though the worst-case complexity might differ from the ***average-case*** complexity.
 
@@ -179,7 +187,7 @@ Big O Notation
 
 > Thus, when describing the time complexity of an algorithm, it can sometimes be helpful to specify whether the time complexity refers to the average case or to the worst case (e.g., "this algorithm runs in O(nlog(n)) time on average and in O(n<sup>2</sup>) time in the worst case").
 
-### Example
+#### Example
 
 Let's have an ***Array a = [. . .]***
 ***Length*** of the Array is ***N***
@@ -330,3 +338,79 @@ Arrays
 > A ***dynamic array*** is an implementation of an array that preemptively allocates double the amount of memory needed to store the array's values. Appending values to the array is a constant-time operation until the allocated memory is filled up, at which point the array is copied and double the memory is once again allocated for it. This implementation leads to an amortized constant-time insertion-at-end operation. 
 
 > A lot of popular programming languages like JavaScript and Python implement arrays as dynamic arrays.
+
+Linked Lists
+-
+
+> The data structure whose singular purpose in life is to be reversed. :stuck_out_tongue_winking_eye:
+
+#### 3 Key Terms
+
+- ***Singly Linked List***
+
+> A data structure that consists of nodes, each with some value and a pointer to the next node in the linked list. A linked list node's value and next node are typically stored in ***value*** and ***next*** properties respectively.
+
+> The first node in the linked list is referred to as the ***head*** of the linked list, while the last node in the linked list, whose ***next*** property points to the ***null*** value is known as the ***tail*** of the linked list.
+
+> Below is the visual representation of a singly linked list whose nodes hold integer values:
+
+> `0 -> 1 -> 2 -> 3 -> 4 -> 5 -> null`
+
+> A singly linked list typically exposes its head to its user for easy access. While finding a node in a singly linked list involves traversing through all of the nodes leading up to the node in question (as opposed to instant access with an array), adding or removing nodes simply involves overwriting ***next*** pointers (assuming that you have access to the node right before the node that you're adding or removing).
+
+> The following are a singly linked list's standard operations and their corresponding time complexities:
+
+* ***Accessing the head:*** O(1) 
+* ***Accessing the tail:*** O(n)
+* ***Accessing a middle node:*** O(n)
+* ***Inserting/Removing the head:*** O(1)
+* ***Inserting/Removing the tail:*** O(n) to access + O(1)
+* ***Inserting/Removing a middle node:*** O(n) to find where to insert + O(1) to create new node
+* ***Searching for a value:*** O(n)
+
+---
+
+- ***Doubly Linked List***
+
+> Similar to a ***singly linked list***, except that each node in a doubly linked list also has a pointer to the previous node in the linked list. The previous node is typically stored in a ***prev*** property.
+
+> Just as the ***next*** property of a doubly linked list's ***tail*** points to the ***null*** value, so too does the ***prev*** property of a doubly linked list's head.
+
+> Below is a visual representation of a doubly linked list whose nodes hold integer values.
+
+> `null <- 0 <-> 1 <-> 2 <-> 3 <-> 4 <-> 5 -> null` 
+
+> While a doubly linked list typically exposes both its head and tail to its user, as apposed to just its head in the case of a singly linked list, it otherwise behaves very similarly to a singly linked list.
+
+> The following are a doubly linked list's standard operations and their corresponding time complexities:
+
+* ***Accessing the head:*** O(1) 
+* ***Accessing the tail:*** O(1)
+* ***Accessing a middle node:*** O(n)
+* ***Inserting/Removing the head:*** O(1)
+* ***Inserting/Removing the tail:*** O(1)
+* ***Inserting/Removing a middle node:*** O(n) to find where to insert + O(1) to create new node
+* ***Searching for a value:*** O(n)
+
+---
+
+- ***Circular Linked List***
+
+> A linked list that has no clear ***head*** or ***tail***, because its *"tail"* points to its *"head"*, effectively forming a closed circle.
+
+> A circular linked list can be either a ***singly circular linked list*** or a ***doubly circular linked list***.
+
+---
+
+> ***Linked List*** is very ***similar***, at least conceptually to an ***Array***.
+> Where ***Linked List differs*** from an Array is ***how it is implemented*** or ***how it is stored in memory***.
+> ***Linked Lists*** are gonna ***store elements anywhere in the memory*** and they are gonna ***connect the elements using pointers***.
+
+#### ***How the elements in the Linked List are stored ?***
+
+>- ***In memory***, an element in the linked list is ***stored*** in a structure called ***Node***.
+>- A Node contains the ***Value*** and ***Address*** of the next element, ***basically 2 memory slots***. 1 for the Value and another one for the Address of the next element.
+>- The ***next element can be anywhere in the memory*** (not necessary to be in the next memory slot or contiguous).
+>- The ***node of the last element*** in the linked list (Singly Linked List) will have the value in 1 memory slot and another memory slot will have nothing or rather it will point to something like null address.
+>- This is ***common among Linked Lists*** (Singly, Doubly and Circular).
+>- In the memory canvas, there are certain addresses that kind of act like null value or none value in coding.
