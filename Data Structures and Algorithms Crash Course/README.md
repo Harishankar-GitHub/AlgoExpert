@@ -514,3 +514,72 @@ for character in string:
 - ***Copying a String:*** O(n) ST
 - ***Get a character:*** O(1) ST
 - ***Adding/Updating a String:*** O(n) ST
+
+Graphs
+-
+
+> These collections of edges and vertices might look as banal as a child's scribble on a restaurant table, but they're of fundamental importance in discrete mathematics. The eponymous field of "graph theory" is dedicated to their study, and their importance in mathematics carries over to computer science.
+
+#### 7 Key Terms
+
+- ***Graph***
+
+> A collection of nodes or values called ***vertices*** that might be related; relations between vertices are called ***edges***.
+
+> Many things in life can be represented by graphs; for example, a social network can be represented by a graph whose vertices are users and whose edges are friendships between the users. Similarly, a city map can be represented by a graph whose vertices are locations in the city and whose edges are roads between the locations.
+
+- ***Graph Cycle***
+
+> Simply put, a cycle occurs in a ***graph*** when three or more ***vertices*** in the graph are connected so as to form a closed loop.
+
+> Note that the definition of a graph cycle is sometimes broadened to include cycles of length two or one; in the context of coding interviews, when dealing with the questions that involve graph cycles, it's important to clarify what exactly constitutes a cycle.
+
+- ***Acyclic Graph***
+
+> A ***graph*** that has ***no cycles***.
+
+- ***Cyclic Graph***
+
+> A ***graph*** that has ***at least one cycle***.
+
+- ***Directed Graph***
+
+> A ***graph*** whose edges are directed, meaning ***that they can only be traversed in one direction***, which is specified.
+
+> For example, a graph of airports and flights would likely be directed, since a flight specifically goes from one airport to another (i.e., it has a direction), without necessarily implying the presence of a flight in the opposite direction.
+
+- ***Undirected Graph***
+
+> A graph whose edges are undirected , meaning ***they can be traversed in both directions***.
+
+> For example, a graph of friends would likely be undirected, since a friendship is, by nature, bidirectional.
+
+- ***Connected Graph***
+
+> A graph is connected if ***for every pair of vertices*** in the graph ***there's a path of one or more edges*** connecting the given vertices.
+
+> In case of a ***directed graph***, the graph is:
+- ***strongly connected*** if there are ***bidirectional*** connections ***between the vertices of every pair of vertices*** (i.e., for every vertex-pair *(u,v)* you can reach *v* from *u* and *u* from *v*)
+- ***weakly connected*** if there are ***connections*** (but ***not necessarily bidirectional ones***) between the vertices of every pair of vertices.
+
+> A graph that isn't connected is said to be ***disconnected***.
+
+---
+
+> ***Connectivity***, ***Direction*** and ***Cycles*** are three very ***important concepts*** in Graphs.
+
+> The following are a graph's standard operations and their corresponding time and space complexities:
+- ***Space Complexity for storing a Graph:*** O(V + E)
+- ***Time Complexity for traversing a Graph:*** O(V + E)
+	- ***V*** - Vertices
+	- ***E*** - Edges
+- ***Traversing a Graph:***
+	- ***2*** main traversal ***methods***:
+		- ***DFS*** (***D***epth ***F***irst ***S***earch)
+		- ***BFS*** (***B***readth ***F***irst ***S***earch)
+
+> ***Depth First Search***
+	>* Traversing the graph deeper first.
+
+> ***Breadth First Search***
+	>* Traversing wider before going deep.
