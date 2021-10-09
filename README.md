@@ -14,4 +14,5 @@
 | 8. | [Generate Document](https://www.algoexpert.io/questions/Generate%20Document) | Strings | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Generate%20Document/src/Program.java) |
 | 9. | [Sorted Squared Array](https://www.algoexpert.io/questions/Sorted%20Squared%20Array) | Arrays | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Sorted%20Squared%20Array/src/Program.java) |
 | 10. | [First Non-Repeating Character](https://www.algoexpert.io/questions/First%20Non-Repeating%20Character) | Strings | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/First%20Non-Repeating%20Character/src/Program.java) |
-| 11. | [Remove Duplicates from Linked List](https://www.algoexpert.io/questions/Remove%20Duplicates%20From%20Linked%20List) | Linked Lists | Easy | [Click here]() |
+| 11. | [Remove Duplicates from Linked List](https://www.algoexpert.io/questions/Remove%20Duplicates%20From%20Linked%20List) | Linked Lists | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Remove%20Duplicates%20from%20Linked%20List/src/Program.java) |
+| 12. | [Binary Search](https://www.algoexpert.io/questions/Binary%20Search) | Searching | Easy | [Click here]() |
