@@ -59,7 +59,8 @@ class Program {
             }
 
             currentNode.next = nextNode;
-            currentNode = currentNode.next;
+            currentNode = currentNode.next; // or
+//            currentNode = nextNode;
         }
         return linkedList;
     }
