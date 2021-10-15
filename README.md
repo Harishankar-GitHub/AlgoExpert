@@ -18,4 +18,5 @@
 | 12. | [Binary Search](https://www.algoexpert.io/questions/Binary%20Search) | Searching | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Binary%20Search/src/Program.java) |
 | 13. | [Find Three Largest Numbers](https://www.algoexpert.io/questions/Find%20Three%20Largest%20Numbers) | Searching | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Find%20Three%20Largest%20Numbers/src/Program.java) |
 | 14. | [Bubble Sort](https://www.algoexpert.io/questions/Bubble%20Sort) | Sorting | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Bubble%20Sort/src/Program.java) |
-| 15. | [Insertion Sort](https://www.algoexpert.io/questions/Insertion%20Sort) | Sorting | Easy | [Click here]() |
+| 15. | [Insertion Sort](https://www.algoexpert.io/questions/Insertion%20Sort) | Sorting | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Insertion%20Sort/src/Program.java) |
+| 16. | [Selection Sort](https://www.algoexpert.io/questions/Selection%20Sort) | Sorting | Easy | [Click here]() |
