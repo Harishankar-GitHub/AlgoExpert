@@ -30,9 +30,9 @@ public class Program {
 
     public static int[] bubbleSort_method1(int[] array) {
 
-        // Best:          O(n) | O(1) space - When given a sorted array.
-        // Average:    O(n^2) | O(1) space
-        // Worst:       O(n^2) | O(1) space
+        // Best:          O(n) time | O(1) space - When given a sorted array.
+        // Average:    O(n^2) time | O(1) space
+        // Worst:       O(n^2) time | O(1) space
 
         for (int lastUnsortedIndex = array.length-1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
             for (int i = 0; i < lastUnsortedIndex; i++) {
@@ -46,9 +46,9 @@ public class Program {
 
     public static int[] bubbleSort_method2(int[] array) {
 
-        // Best:          O(n) | O(1) space - When given a sorted array.
-        // Average:    O(n^2) | O(1) space
-        // Worst:       O(n^2) | O(1) space
+        // Best:          O(n) time | O(1) space - When given a sorted array.
+        // Average:    O(n^2) time | O(1) space
+        // Worst:       O(n^2) time | O(1) space
 
         // This method doesn't have counter.
         // Method 3 has counter, and so is more optimized.
@@ -69,9 +69,9 @@ public class Program {
 
     public static int[] bubbleSort_method3(int[] array) {
 
-        // Best:          O(n) | O(1) space - When given a sorted array.
-        // Average:    O(n^2) | O(1) space
-        // Worst:       O(n^2) | O(1) space
+        // Best:          O(n) time | O(1) space - When given a sorted array.
+        // Average:    O(n^2) time | O(1) space
+        // Worst:       O(n^2) time | O(1) space
 
         // With counter, it adds more optimization by reducing the number of elements to check.
         // In 1st loop, the last element of the array is sorted and in 2nd loop, last 2 elements are sorted and so on.
