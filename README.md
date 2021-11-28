@@ -21,3 +21,4 @@
 | 15. | [Insertion Sort](https://www.algoexpert.io/questions/Insertion%20Sort) | Sorting | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Insertion%20Sort/src/Program.java) |
 | 16. | [Selection Sort](https://www.algoexpert.io/questions/Selection%20Sort) | Sorting | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Selection%20Sort/src/Program.java) |
 | 17. | [Nth Fibonacci](https://www.algoexpert.io/questions/Nth%20Fibonacci) | Recursion | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Nth%20Fibonacci/src/Program.java) |
+| 18. | [Product Sum](https://www.algoexpert.io/questions/Product%20Sum) | Recursion | Easy | [Click here]() |
