@@ -22,4 +22,5 @@
 | 16. | [Selection Sort](https://www.algoexpert.io/questions/Selection%20Sort) | Sorting | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Selection%20Sort/src/Program.java) |
 | 17. | [Nth Fibonacci](https://www.algoexpert.io/questions/Nth%20Fibonacci) | Recursion | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Nth%20Fibonacci/src/Program.java) |
 | 18. | [Product Sum](https://www.algoexpert.io/questions/Product%20Sum) | Recursion | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Product%20Sum/src/Program.java) |
-| 19. | [Branch Sums](https://www.algoexpert.io/questions/Branch%20Sums) | Binary Trees | Easy | [Click here]() |
+| 19. | [Branch Sums](https://www.algoexpert.io/questions/Branch%20Sums) | Binary Trees | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Branch%20Sums/src/Program.java) |
+| 20. | [Node Depths](https://www.algoexpert.io/questions/Node%20Depths) | Binary Trees | Easy | [Click here]() |
