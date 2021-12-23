@@ -17,26 +17,7 @@ public class Program {
     }
 
     public static void main(String[] args) {
-        BinaryTree root = new BinaryTree(1);
-        BinaryTree two = new BinaryTree(2);
-        BinaryTree four = new BinaryTree(4);
-        BinaryTree eight = new BinaryTree(8);
-        BinaryTree five = new BinaryTree(5);
-        BinaryTree nine = new BinaryTree(9);
-        BinaryTree ten = new BinaryTree(10);
-        BinaryTree six = new BinaryTree(6);
-        BinaryTree seven = new BinaryTree(7);
-        BinaryTree three = new BinaryTree(3);
-
-        root.left = two;
-        two.left = four;
-        four.left = eight;
-        four.right = nine;
-        two.right = five;
-        five.left = ten;
-        root.right = three;
-        three.left = six;
-        three.right = seven;
+        BinaryTree root = buildBinaryTree();
 
         List<Integer> branchSums = branchSums(root);
 
@@ -66,5 +47,30 @@ public class Program {
 
         calculateBranchSums(node.left, newRunningSum, branchSums);
         calculateBranchSums(node.right, newRunningSum, branchSums);
+    }
+
+    private static BinaryTree buildBinaryTree() {
+        BinaryTree root = new BinaryTree(1);
+        BinaryTree two = new BinaryTree(2);
+        BinaryTree four = new BinaryTree(4);
+        BinaryTree eight = new BinaryTree(8);
+        BinaryTree five = new BinaryTree(5);
+        BinaryTree nine = new BinaryTree(9);
+        BinaryTree ten = new BinaryTree(10);
+        BinaryTree six = new BinaryTree(6);
+        BinaryTree seven = new BinaryTree(7);
+        BinaryTree three = new BinaryTree(3);
+
+        root.left = two;
+        two.left = four;
+        four.left = eight;
+        four.right = nine;
+        two.right = five;
+        five.left = ten;
+        root.right = three;
+        three.left = six;
+        three.right = seven;
+
+        return root;
     }
 }
