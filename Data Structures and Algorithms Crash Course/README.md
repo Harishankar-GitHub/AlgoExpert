@@ -686,9 +686,29 @@ Trees
 									8		9
 ```
 
----
-
-- ***Storing a tree*** (whatever type of tree it may be): O(n)
-- ***Traversing a tree:*** O(n)
+>- ***Storing a tree*** (whatever type of tree it may be): O(n)
+>- ***Traversing a tree:*** O(n)
 
 ---
+
+Binary Search Tree (BST) Construction
+-
+
+- A BST class for a Binary Search Tree that should support:
+	- Inserting values with the **insert** method.
+	- Removing values with the **remove** method; this method should only remove the first instance of a given value.
+	- Searching for values with the **contains** method.
+- Note that you can't remove values from a single-node tree. In other words, calling the **remove** method on a single-node tree should simply not do anything.
+- Each **BST** node has an integer **value**, a **left** child node, and a **right** child node. A node is said to be a valid **BST** node if and only if it satisfies the **BST property**; its value is strictly greater than the values of every node to its left; its **value** is less than or equal to the values of every node to its right; and its children nodes are either valid **BST** nodes themselves or **None**/**null**.
+
+> Binary Search Tree (BST) is a special type of Binary Tree.
+> The definition of BST can vary.
+
+### References
+- [https://www.geeksforgeeks.org/binary-search-tree-data-structure/](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
+- [https://www.javatpoint.com/java-program-to-construct-a-binary-search-tree-and-perform-deletion-and-in-order-traversal](https://www.javatpoint.com/java-program-to-construct-a-binary-search-tree-and-perform-deletion-and-in-order-traversal)
+- [https://www.javatpoint.com/binary-search-tree](https://www.javatpoint.com/binary-search-tree)
+- [https://www.softwaretestinghelp.com/binary-search-tree-in-java/](https://www.softwaretestinghelp.com/binary-search-tree-in-java/)
+- [https://favtutor.com/blogs/binary-search-tree-java](https://favtutor.com/blogs/binary-search-tree-java)
+- [https://www.programiz.com/dsa/binary-search-tree](https://www.programiz.com/dsa/binary-search-tree)
+- [https://www.guru99.com/binary-search-tree-data-structure.html](https://www.guru99.com/binary-search-tree-data-structure.html)
