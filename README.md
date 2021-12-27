@@ -24,4 +24,5 @@
 | 18. | [Product Sum](https://www.algoexpert.io/questions/Product%20Sum) | Recursion | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Product%20Sum/src/Program.java) |
 | 19. | [Branch Sums](https://www.algoexpert.io/questions/Branch%20Sums) | Binary Trees | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Branch%20Sums/src/Program.java) |
 | 20. | [Node Depths](https://www.algoexpert.io/questions/Node%20Depths) | Binary Trees | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Node%20Depths/src/Program.java) |
-| 21. | [BST Construction](https://www.algoexpert.io/questions/BST%20Construction) | Binary Search Trees | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/tree/main/BST%20Construction/src) |
+| 21. | [BST Construction](https://www.algoexpert.io/questions/BST%20Construction) | Binary Search Trees | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/tree/main/BST%20Construction/src) |
+| 22. | [Find Closest Value in BST](https://www.algoexpert.io/questions/Find%20Closest%20Value%20In%20BST) | Binary Search Trees | Easy | [Click here]() |
