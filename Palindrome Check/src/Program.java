@@ -1,7 +1,6 @@
-class Program
-{
-    public static void main(String[] args)
-    {
+class Program {
+
+    public static void main(String[] args) {
         String str = "ababa";
 
         System.out.println(isPalindrome_my_solution(str));
@@ -12,16 +11,14 @@ class Program
 
     // --------------------------------------------------------------------------------------- //
 
-    public static boolean isPalindrome_my_solution(String str)
-    {
+    public static boolean isPalindrome_my_solution(String str) {
         // O(n) time | O(1) space
         // O(n/2) time which is equal to O(n) time.
 
         int start = 0;
         int end = str.length() - 1;
 
-        while (start < end)
-        {
+        while (start < end) {
             if (str.charAt(start) != str.charAt(end)) return false;
             start++;
             end--;
@@ -31,8 +28,7 @@ class Program
 
     // --------------------------------------------------------------------------------------- //
 
-    public static boolean isPalindrome_method2(String str)
-    {
+    public static boolean isPalindrome_method2(String str) {
         // O(n^2) time | O(n) space
         // O(n^2) time:
         //  For iterating the string once in For loop O(n).
@@ -41,8 +37,7 @@ class Program
 
         String reversedString = "";
 
-        for (int i = str.length() - 1; i >= 0; i--)
-        {
+        for (int i = str.length() - 1; i >= 0; i--) {
             reversedString += str.charAt(i);
         }
         return str.equals(reversedString);
@@ -50,8 +45,7 @@ class Program
 
     // --------------------------------------------------------------------------------------- //
 
-    public static boolean isPalindrome_method3(String str)
-    {
+    public static boolean isPalindrome_method3(String str) {
         // O(n) time | O(n) space
         // O(n) time:
         //  For iterating the string once in For loop O(n).
@@ -61,8 +55,7 @@ class Program
 
         StringBuilder reversedString = new StringBuilder();
 
-        for (int i = str.length() - 1; i >= 0; i--)
-        {
+        for (int i = str.length() - 1; i >= 0; i--) {
             reversedString.append(str.charAt(i));
         }
         return str.equals(reversedString.toString());
@@ -70,19 +63,18 @@ class Program
 
     // --------------------------------------------------------------------------------------- //
 
-    public static boolean isPalindrome_method4(String str)
-    {
+    public static boolean isPalindrome_method4(String str) {
         // Using Recursion
         // O(n) time | O(n) space
 
         return isPalindrome(str,0);
     }
 
-    private static boolean isPalindrome(String str, int i)
-    {
+    private static boolean isPalindrome(String str, int i) {
         int j = str.length() - 1 - i;
 
-        return i >= j ? true : str.charAt(i) == str.charAt(j) && isPalindrome(str, i + 1);
+//        return i >= j ? true : str.charAt(i) == str.charAt(j) && isPalindrome(str, i + 1);
+        return i >= j || str.charAt(i) == str.charAt(j) && isPalindrome(str, i + 1);
     }
 
     // --------------------------------------------------------------------------------------- //

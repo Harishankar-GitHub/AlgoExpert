@@ -1,9 +1,6 @@
+class Program {
 
-
-class Program
-{
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         String str = "xyz";
         int key = 2;
 
@@ -20,58 +17,46 @@ class Program
 
     // ------------------------------------------------------------------------------------------------------------- //
 
-    public static String caesarCypherEncryptor_my_solution(String str, int key)
-    {
+    public static String caesarCypherEncryptor_my_solution(String str, int key) {
         // O(n) time | O(n) space
 
         int[] charArray = new int[str.length()];
         int startingCharValue = 97;
-        String result = "";
+        StringBuilder result = new StringBuilder();
 
         if (key % 26 == 0) return str;
 
-        for (int i = 0; i < str.length(); i++)
-        {
-            if (key <= 26)
-            {
+        for (int i = 0; i < str.length(); i++) {
+            if (key <= 26) {
                 int currentCharValue = (int) str.charAt(i) + key;
                 if (currentCharValue > 122)
-                {
                     charArray[i] = (startingCharValue) - 1 + (currentCharValue - 122);
-                }
                 else
-                {
                     charArray[i] = currentCharValue;
-                }
-            }
-            else
-            {
+            } else {
                 key = key % 26;
                 charArray[i] = startingCharValue + key;
             }
-            result += (char) charArray[i];
+            result.append((char) charArray[i]);
         }
-        return result;
+        return result.toString();
     }
 
     // ------------------------------------------------------------------------------------------------------------- //
 
-    public static String caesarCypherEncryptor_method_2(String str, int key)
-    {
+    public static String caesarCypherEncryptor_method_2(String str, int key) {
         // O(n) time | O(n) space
 
         char[] newLetters = new char[str.length()];
         int newKey = key % 26;
 
-        for (int i = 0; i < str.length(); i++)
-        {
+        for (int i = 0; i < str.length(); i++) {
             newLetters[i] = getNewLetter(str.charAt(i), newKey);
         }
         return new String(newLetters);
     }
 
-    public static char getNewLetter(char letter, int key)
-    {
+    public static char getNewLetter(char letter, int key) {
         int newLetterCode = letter + key;
 
         if (newLetterCode <= 122) return (char) newLetterCode;
@@ -80,23 +65,20 @@ class Program
 
     // ------------------------------------------------------------------------------------------------------------- //
 
-    public static String caesarCypherEncryptor_method_3(String str, int key)
-    {
+    public static String caesarCypherEncryptor_method_3(String str, int key) {
         // O(n) time | O(n) space
 
         char[] newLetters = new char[str.length()];
         int newKey = key % 26;
         String alphabets = "abcdefghijklmnopqrstuvwxyz";
 
-        for (int i = 0; i < str.length(); i++)
-        {
+        for (int i = 0; i < str.length(); i++) {
             newLetters[i] = getNewLetter(str.charAt(i), newKey, alphabets);
         }
         return new String(newLetters);
     }
 
-    private static char getNewLetter(char letter, int key, String alphabets)
-    {
+    private static char getNewLetter(char letter, int key, String alphabets) {
         int newLetterCode = alphabets.indexOf(letter) + key;
         return alphabets.charAt(newLetterCode % 26);
     }
