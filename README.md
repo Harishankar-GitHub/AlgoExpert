@@ -31,4 +31,5 @@
 | 25. | [Class Photos](https://www.algoexpert.io/questions/Class%20Photos) | Greedy Algorithms | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Class%20Photos%20-%20Greedy%20Algorithm/src/Program.java) |
 | 26. | [Tandem Bicycle](https://www.algoexpert.io/questions/Tandem%20Bicycle) | Greedy Algorithms | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Tandem%20Bicycle%20-%20Greedy%20Algorithm/src/Program.java) |
 | 27. | [Max Subset Sum No Adjacent](https://www.algoexpert.io/questions/Max%20Subset%20Sum%20No%20Adjacent) | Dynamic Programming | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Max%20Subset%20Sum%20No%20Adjacent/src/Program.java) |
-| 28. | [Three Number Sum](https://www.algoexpert.io/questions/Max%20Subset%20Sum%20No%20Adjacent) | Arrays | Medium | [Click here]() |
+| 28. | [Three Number Sum](https://www.algoexpert.io/questions/Max%20Subset%20Sum%20No%20Adjacent) | Arrays | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Three%20Number%20Sum/src/Program.java) |
+| 29. | [Smallest Difference](https://www.algoexpert.io/questions/Smallest%20Difference) | Arrays | Medium | [Click here]() |
