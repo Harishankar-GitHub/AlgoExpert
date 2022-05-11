@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class DepthFirstSearch_Iterative {
+public class DepthFirstSearch_Iterative_Method_1 {
 
     // Do not edit the class below except
     // for the depthFirstSearch method.
