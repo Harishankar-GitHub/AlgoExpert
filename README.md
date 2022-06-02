@@ -36,4 +36,5 @@
 | 30. | [Move Element To End](https://www.algoexpert.io/questions/Move%20Element%20To%20End) | Arrays | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Move%20Element%20To%20End/src/Program.java) |
 | 31. | [Monotonic Array](https://www.algoexpert.io/questions/Monotonic%20Array) | Arrays | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Monotonic%20Array/src/Program.java) |
 | 32. | [Single Cycle Check](https://www.algoexpert.io/questions/Single%20Cycle%20Check) | Graphs | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Single%20Cycle%20Check/src/Program.java) |
-| 33. | [Breadth-first Search](https://www.algoexpert.io/questions/Breadth-first%20Search) | Graphs | Medium | [Click here]() |
+| 33. | [Breadth-first Search](https://www.algoexpert.io/questions/Breadth-first%20Search) | Graphs | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Breadth-first%20Search/src/Program.java) |
+| 34. | [Min Max Stack Construction](https://www.algoexpert.io/questions/min-max-stack-construction) | Stacks | Medium | [Click here]() |
