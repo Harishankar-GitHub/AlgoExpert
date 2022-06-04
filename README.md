@@ -38,4 +38,5 @@
 | 32. | [Single Cycle Check](https://www.algoexpert.io/questions/Single%20Cycle%20Check) | Graphs | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Single%20Cycle%20Check/src/Program.java) |
 | 33. | [Breadth-first Search](https://www.algoexpert.io/questions/Breadth-first%20Search) | Graphs | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Breadth-first%20Search/src/Program.java) |
 | 34. | [Min Max Stack Construction](https://www.algoexpert.io/questions/min-max-stack-construction) | Stacks | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/tree/main/Min%20Max%20Stack%20Construction/src) |
-| 35. | [Balanced Brackets](https://www.algoexpert.io/questions/balanced-brackets) | Stacks | Medium | [Click here]() |
+| 35. | [Balanced Brackets](https://www.algoexpert.io/questions/balanced-brackets) | Stacks | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Balanced%20Brackets/src/Program.java) |
+| 36. | [Kadane's Algorithm](https://www.algoexpert.io/questions/kadane's-algorithm) | Famous Algorithms (Dynamic Programming) | Medium | [Click here]() |
