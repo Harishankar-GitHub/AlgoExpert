@@ -39,4 +39,5 @@
 | 33. | [Breadth-first Search](https://www.algoexpert.io/questions/Breadth-first%20Search) | Graphs | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Breadth-first%20Search/src/Program.java) |
 | 34. | [Min Max Stack Construction](https://www.algoexpert.io/questions/min-max-stack-construction) | Stacks | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/tree/main/Min%20Max%20Stack%20Construction/src) |
 | 35. | [Balanced Brackets](https://www.algoexpert.io/questions/balanced-brackets) | Stacks | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Balanced%20Brackets/src/Program.java) |
-| 36. | [Kadane's Algorithm](https://www.algoexpert.io/questions/kadane's-algorithm) | Famous Algorithms (Dynamic Programming) | Medium | [Click here]() |
+| 36. | [Kadane's Algorithm](https://www.algoexpert.io/questions/kadane's-algorithm) | Famous Algorithms (Dynamic Programming) | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Kadane's%20Algorithm/src/Program.java) |
+| 37. | [Group Anagrams](https://www.algoexpert.io/questions/group-anagrams) | Strings | Medium | [Click here]() |
