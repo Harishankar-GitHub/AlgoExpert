@@ -42,4 +42,5 @@
 | 36. | [Kadane's Algorithm](https://www.algoexpert.io/questions/kadane's-algorithm) | Famous Algorithms (Dynamic Programming) | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Kadane's%20Algorithm/src/Program.java) |
 | 37. | [Group Anagrams](https://www.algoexpert.io/questions/group-anagrams) | Strings | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Group%20Anagrams/src/Program.java) |
 | 38. | [Linked List Construction](https://www.algoexpert.io/questions/linked-list-construction) | LinkedList | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Linked%20List%20Construction/src/Program.java) |
-| 39. | [Spiral Traverse](https://www.algoexpert.io/questions/spiral-traverse) | Arrays | Medium | [Click here]() |
+| 39. | [Spiral Traverse](https://www.algoexpert.io/questions/spiral-traverse) | Arrays | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Spiral%20Traverse/src/Program.java) |
+| 40. | [Longest Palindromic Substring](https://www.algoexpert.io/questions/longest-palindromic-substring) | Strings | Medium | [Click here]() |
