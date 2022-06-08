@@ -122,7 +122,7 @@ public class Program {
             node.next = nodeToInsert;
         }
 
-        // O(1) time | O(1) space
+        // O(p) time | O(1) space
         public void insertAtPosition(int position, Node nodeToInsert) {
             if (position == 1) {
                 setHead(nodeToInsert);
@@ -139,7 +139,7 @@ public class Program {
             else setTail(nodeToInsert);
         }
 
-        // O(1) time | O(1) space
+        // O(n) time | O(1) space
         public void removeNodesWithValue(int value) {
             Node node = this.head;
             while (node != null) {
@@ -156,7 +156,7 @@ public class Program {
             removeNodeBindings(node);
         }
 
-        // O(1) time | O(1) space
+        // O(n) time | O(1) space
         public boolean containsNodeWithValue(int value) {
             Node node = this.head;
 
