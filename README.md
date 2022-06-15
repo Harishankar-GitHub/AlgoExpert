@@ -43,4 +43,5 @@
 | 37. | [Group Anagrams](https://www.algoexpert.io/questions/group-anagrams) | Strings | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Group%20Anagrams/src/Program.java) |
 | 38. | [Linked List Construction](https://www.algoexpert.io/questions/linked-list-construction) | LinkedList | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Linked%20List%20Construction/src/Program.java) |
 | 39. | [Spiral Traverse](https://www.algoexpert.io/questions/spiral-traverse) | Arrays | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Spiral%20Traverse/src/Program.java) |
-| 40. | [Longest Palindromic Substring](https://www.algoexpert.io/questions/longest-palindromic-substring) | Strings | Medium | [Click here]() |
+| 40. | [Longest Palindromic Substring](https://www.algoexpert.io/questions/longest-palindromic-substring) | Strings | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Longest%20Palindromic%20Substring/src/Program.java) |
+| 41. | [Dijkstra's Algorithm](https://www.algoexpert.io/questions/dijkstra's-algorithm) | Famous Algorithms | Hard | [Click here]() |
