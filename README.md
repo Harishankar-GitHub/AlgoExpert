@@ -45,4 +45,5 @@
 | 39. | [Spiral Traverse](https://www.algoexpert.io/questions/spiral-traverse) | Arrays | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Spiral%20Traverse/src/Program.java) |
 | 40. | [Longest Palindromic Substring](https://www.algoexpert.io/questions/longest-palindromic-substring) | Strings | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Longest%20Palindromic%20Substring/src/Program.java) |
 | 41. | [Dijkstra's Algorithm](https://www.algoexpert.io/questions/dijkstra's-algorithm) | Famous Algorithms | Hard | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Dijkstra's%20Algorithm/src/Program.java) |
-| 42. | [Remove Kth Node From End](https://www.algoexpert.io/questions/remove-kth-node-from-end) | Linked Lists | Medium | [Click here]() |
+| 42. | [Remove Kth Node From End](https://www.algoexpert.io/questions/remove-kth-node-from-end) | Linked Lists | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Remove%20Kth%20Node%20From%20End/src/Program.java) |
+| 43. | [Task Assignment](https://www.algoexpert.io/questions/task-assignment) | Greedy Algorithms | Medium | [Click here]() |
