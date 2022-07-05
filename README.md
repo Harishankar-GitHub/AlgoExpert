@@ -49,4 +49,5 @@
 | 43. | [Task Assignment](https://www.algoexpert.io/questions/task-assignment) | Greedy Algorithms | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Task%20Assignment/src/Program.java) |
 | 44. | [First Duplicate Value](https://www.algoexpert.io/questions/first-duplicate-value) | Arrays | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/First%20Duplicate%20Value/src/Program.java) |
 | 45. | [Merge Overlapping Intervals](https://www.algoexpert.io/questions/merge-overlapping-intervals) | Arrays | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Merge%20Overlapping%20Intervals/src/Program.java) |
-| 46. | [Sort Stack](https://www.algoexpert.io/questions/sort-stack) | Stacks | Medium | [Click here]() |
+| 46. | [Sort Stack](https://www.algoexpert.io/questions/sort-stack) | Stacks | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Sort%20Stack/src/Program.java) |
+| 47. | [Array Of Products](https://www.algoexpert.io/questions/array-of-products) | Arrays | Medium | [Click here]() |
