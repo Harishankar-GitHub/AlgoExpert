@@ -19,13 +19,10 @@ public class Program {
     // The position of duplicates are maintained after sorting. Hence, Bubble sort is a stable algorithm.
 
     public static void main(String[] args) {
-        int[] intArray1 = {20, 35, -15, 7, 55, 1, -22};
-        int[] intArray2 = {20, 35, -15, 7, 55, 1, -22};
-        int[] intArray3 = {20, 35, -15, 7, 55, 1, -22};
-
-        System.out.println(Arrays.toString(bubbleSort_method1(intArray1)));
-        System.out.println(Arrays.toString(bubbleSort_method2(intArray2)));
-        System.out.println(Arrays.toString(bubbleSort_method3(intArray3)));
+        System.out.println(Arrays.toString(bubbleSort_method1(new int[]{20, 35, -15, 7, 55, 1, -22})));
+        System.out.println(Arrays.toString(bubbleSort_method2(new int[]{20, 35, -15, 7, 55, 1, -22})));
+        System.out.println(Arrays.toString(bubbleSort_method3(new int[]{20, 35, -15, 7, 55, 1, -22})));
+        System.out.println(Arrays.toString(bubbleSort_method4(new int[]{20, 35, -15, 7, 55, 1, -22})));
     }
 
     public static int[] bubbleSort_method1(int[] array) {
@@ -91,6 +88,27 @@ public class Program {
             counter++;
         }
         return array;
+    }
+
+    public static int[] bubbleSort_method4(int[] array) {
+
+        // Best:          O(n) time | O(n) space - When given a sorted array.
+        // Average:    O(n^2) time | O(n) space
+        // Worst:       O(n^2) time | O(n) space
+
+        return bubbleSort_recursion(array, array.length);
+    }
+
+    private static int[] bubbleSort_recursion(int[] array, int length) {
+        // Base case
+        if (length <= 1) return array;
+
+        for (int i = 0; i < length - 1; i++) {
+            if (array[i] > array[i + 1]) swap(array, i, i + 1);
+        }
+
+        // Recursive Relation
+        return bubbleSort_recursion(array, length-1);
     }
 
     public static void swap(int[] array, int i, int j) {
