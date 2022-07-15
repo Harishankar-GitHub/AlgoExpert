@@ -10,10 +10,9 @@ public class Program {
 
         // Assuming 1st element in the array is sorted.
 
-        int[] array1 = {8, 5, 2, 9, 5, 6, 3};
-        int[] array2 = {8, 5, 2, 9, 5, 6, 3};
-        System.out.println(Arrays.toString(insertionSort_method1(array1)));
-        System.out.println(Arrays.toString(insertionSort_method2(array2)));
+        System.out.println(Arrays.toString(insertionSort_method1(new int[]{8, 5, 2, 9, 5, 6, 3})));
+        System.out.println(Arrays.toString(insertionSort_method2(new int[]{8, 5, 2, 9, 5, 6, 3})));
+        System.out.println(Arrays.toString(insertionSort_method3(new int[]{8, 5, 2, 9, 5, 6, 3})));
     }
 
     public static int[] insertionSort_method1(int[] array) {
@@ -47,6 +46,29 @@ public class Program {
             array[j] = currentElement;
         }
         return array;
+    }
+
+    public static int[] insertionSort_method3(int[] array) {
+
+        // Best: O(n) time | O(n) space
+        // Average: O(n^2) time | O(n) space
+        // Worst: O(n^2) time | O(n) space
+
+        return insertionSort_recursion(array, 1, array.length);
+    }
+
+    private static int[] insertionSort_recursion(int[] array, int currentUnsortedIndex, int length) {
+        // Base case
+        if (currentUnsortedIndex == length) return array;
+
+        int j = currentUnsortedIndex;
+        while (j > 0 && array[j] < array[j-1]) {
+            swap(j, j-1, array);
+            j -= 1;
+        }
+
+        // Recursive Relation
+        return insertionSort_recursion(array, currentUnsortedIndex+1, length);
     }
 
     private static void swap(int j, int i, int[] array) {
