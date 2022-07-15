@@ -9,15 +9,11 @@ public class Program {
         // Doesn't require as much swapping as bubble sort.
         // Unstable algorithm.
 
-        int[] array1 = {20, 35, -15, 7, 55, 1, -22};
-        int[] array2 = {20, 35, -15, 7, 55, 1, -22};
-        int[] array3 = {20, 35, -15, 7, 55, 1, -22};
-        int[] array4 = {20, 35, -15, 7, 55, 1, -22};
-
-        System.out.println(Arrays.toString(selectionSort_using_for_loop(array1)));
-        System.out.println(Arrays.toString(selectionSort_using_for_loop_reverse(array2)));
-        System.out.println(Arrays.toString(selectionSort_using_while_loop(array3)));
-        System.out.println(Arrays.toString(selectionSort_using_while_loop_reverse(array4)));
+        System.out.println(Arrays.toString(selectionSort_using_for_loop(new int[]{20, 35, -15, 7, 55, 1, -22})));
+        System.out.println(Arrays.toString(selectionSort_using_for_loop_reverse(new int[]{20, 35, -15, 7, 55, 1, -22})));
+        System.out.println(Arrays.toString(selectionSort_using_while_loop(new int[]{20, 35, -15, 7, 55, 1, -22})));
+        System.out.println(Arrays.toString(selectionSort_using_while_loop_reverse(new int[]{20, 35, -15, 7, 55, 1, -22})));
+        System.out.println(Arrays.toString(selectionSort_using_recursion(new int[]{20, 35, -15, 7, 55, 1, -22})));
     }
 
     public static int[] selectionSort_using_for_loop(int[] array) {
@@ -94,6 +90,31 @@ public class Program {
             firstUnsortedIndex += 1;
         }
         return array;
+    }
+
+    public static int[] selectionSort_using_recursion(int[] array) {
+
+        // Best: O(n^2) time | O(n) space
+        // Average: O(n^2) time | O(n) space
+        // Worst: O(n^2) time | O(n) space
+
+        return selectionSort_using_recursion(array, array.length - 1);
+    }
+
+    private static int[] selectionSort_using_recursion(int[] array, int lastUnsortedIndex) {
+        // Base case
+        if (lastUnsortedIndex == 0) return array;
+
+        int largestIndex = 0;
+
+        for (int i = 1; i <= lastUnsortedIndex; i++) {
+            if (array[i] > array[largestIndex]) largestIndex = i;
+        }
+
+        swap(array, largestIndex, lastUnsortedIndex);
+
+        // Recursive Relation
+        return selectionSort_using_recursion(array, lastUnsortedIndex - 1);
     }
 
     private static void swap(int[] array, int i, int j) {
