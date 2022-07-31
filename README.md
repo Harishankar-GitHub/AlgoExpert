@@ -54,4 +54,5 @@
 | 48. | [Longest Peak](https://www.algoexpert.io/questions/longest-peak) | Arrays | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Longest%20Peak/src/Program.java) |
 | 49. | [Three Number Sort](https://www.algoexpert.io/questions/three-number-sort) | Sorting | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Three%20Number%20Sort/src/Program.java) |
 | 50. | [Next Greater Element](https://www.algoexpert.io/questions/next-greater-element) | Stacks | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Next%20Greater%20Element/src/Program.java) |
-| 51. | [Merge Sort]() | Sorting | Very Hard | [Click here]() |
+| 51. | [Merge Sort]() | Sorting | Very Hard | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/tree/main/Merge%20Sort/src) |
+| 52. | [Quick Sort]() | Sorting | Hard | [Click here]() |
