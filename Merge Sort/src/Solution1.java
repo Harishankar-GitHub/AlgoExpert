@@ -40,7 +40,7 @@ public class Solution1 {
 
     public static void mergeSort_method_1(int[] array, int start, int end) {
 
-        // O(n(log(n)) time | O(n) space
+        // O(n(log(n)) time | O(n(log(n)) space
 
         // Base case
         if (start >= end) return;
