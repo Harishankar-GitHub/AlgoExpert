@@ -56,4 +56,5 @@
 | 50. | [Next Greater Element](https://www.algoexpert.io/questions/next-greater-element) | Stacks | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Next%20Greater%20Element/src/Program.java) |
 | 51. | [Merge Sort]() | Sorting | Very Hard | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/tree/main/Merge%20Sort/src) |
 | 52. | [Quick Sort]() | Sorting | Hard | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Quick%20Sort/src/Program.java) |
-| 53. | [Number Of Ways To Make Change](https://www.algoexpert.io/questions/number-of-ways-to-make-change) | Dynamic Programming | Medium | [Click here]() |
+| 53. | [Number Of Ways To Make Change](https://www.algoexpert.io/questions/number-of-ways-to-make-change) | Dynamic Programming | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Number%20Of%20Ways%20To%20Make%20Change/src/Solution.java) |
+| 54. | [Min Number Of Coins For Change](https://www.algoexpert.io/questions/min-number-of-coins-for-change) | Dynamic Programming | Medium | [Click here]() |
