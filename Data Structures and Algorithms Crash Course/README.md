@@ -65,11 +65,11 @@ Memory
 
 > An integer represented by a fixed amount of bits. For example, a 32-bit integer is an integer represented by 32 bits (4 bytes), and a 64-bit integer is an integer represented by 64 bits (8 bytes).
 
-> The following is the 32-bit representation of Number 1, with clearly separated bytes.
-> `00000000 00000000 00000000 00000001`
+>- The following is the 32-bit representation of Number 1, with clearly separated bytes.
+>- `00000000 00000000 00000000 00000001`
 
-> The following is the 64-bit representation of Number 10, with clearly separated bytes.
-> `00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001010`
+>- The following is the 64-bit representation of Number 10, with clearly separated bytes.
+>- `00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001010`
 
 > Regardless of how large an integer is, its fixed-width-integer representation is, by definition, made up of a constant number of bits.
 > It follows that, regardless of how large an integer is, an operation performed on its fixed-width-integer representation consists of a constant number of bit manipulations, since the integer is made up of a fixed number of bits.
@@ -99,9 +99,9 @@ Memory
 - So, ***2 power 8*** is the ***maximum value*** that can be represented in ***1 byte***.
 
 > *Numbers stored in the form of binary numbers: 
-1 = 0000 0001
-2 = 0000 0010
-3 = 0000 0011 etc.*
+>- 1 = 0000 0001
+>- 2 = 0000 0010
+>- 3 = 0000 0011 etc.*
 
 - The right most bit represents 2 power 0.
 - The second right most bit represents 2 power 1 and so on.
@@ -211,9 +211,9 @@ We have ***3 algorithms***,
 ##### 2nd Algorithm (A<sub>3</sub>(a))
 > The logic of 3rd Algorithm is to print the pairs.
 > For instance, if the array had 3 elements [1,2,3] then the ***pairs*** would look like,
-> ***1,1 | 1,2 | 1,3***
-> ***2,3 | 2,2 | 2,3***
-> ***3,1 | 3,2 | 3,3***
+>- ***1,1 | 1,2 | 1,3***
+>- ***2,1 | 2,2 | 2,3***
+>- ***3,1 | 3,2 | 3,3***
 
 > If we have an ***array with 3 elements*** [1,2,3], then the ***execution time*** of all these algorithms might be ***very quick and similar, almost instant***.
 
