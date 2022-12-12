@@ -19,6 +19,7 @@ public class Solution {
         // Using recursion and dynamic programming.
         // O(n*m) time, no. of distinct recursive calls * no. of work per recursive call.
         // O(m) space, where m is the amount.
+        // Top-down approach
 
         int[] dpArr = new int[n+1];
         return minNumberOfCoinsForChange(denoms, n, dpArr);
@@ -50,6 +51,7 @@ public class Solution {
         // Using iterative approach and dynamic programming.
         // O(n*d) time, where d is the number of denominations.
         // O(n) space
+        // Bottom-up approach
 
         int[] numOfCoins = new int[n+1];
         Arrays.fill(numOfCoins, Integer.MAX_VALUE);
@@ -63,6 +65,10 @@ public class Solution {
                         toCompare = numOfCoins[amount - denomination];
                     } else {
                         toCompare = numOfCoins[amount - denomination] + 1;
+                        // Example: toCompare = numOfCoins[5 - 3] + 1;
+                        // +1 is for the current denomination coin.
+                        // i.e., amount is 5, current denomination is 3
+                        // we are computing numOfCoins for 2 (5 - 3) and adding +1 for denomination coin of 3.
                     }
                     numOfCoins[amount] = Math.min(numOfCoins[amount], toCompare);
                 }
