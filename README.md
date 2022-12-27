@@ -58,4 +58,5 @@
 | 52. | [Quick Sort]() | Sorting | Hard | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Quick%20Sort/src/Program.java) |
 | 53. | [Number Of Ways To Make Change](https://www.algoexpert.io/questions/number-of-ways-to-make-change) | Dynamic Programming | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Number%20Of%20Ways%20To%20Make%20Change/src/Solution.java) |
 | 54. | [Min Number Of Coins For Change](https://www.algoexpert.io/questions/min-number-of-coins-for-change) | Dynamic Programming | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Min%20Number%20Of%20Coins%20For%20Change/src/Solution.java) |
-| 55. | [Semordnilap](https://www.algoexpert.io/questions/semordnilap) | Strings | Easy | [Click here]() |
+| 55. | [Semordnilap](https://www.algoexpert.io/questions/semordnilap) | Strings | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Semordnilap/src/Solution.java) |
+| 56. | [Zero Sum Subarray](https://www.algoexpert.io/questions/zero-sum-subarray) | Arrays | Medium | [Click here]() |
