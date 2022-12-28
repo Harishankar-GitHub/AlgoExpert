@@ -1,7 +1,10 @@
 public class Solution {
 
     public static void main(String[] args) {
-        System.out.println(validStartingCity(new int[]{5, 25, 15, 10, 15}, new int[]{1, 2, 1, 0, 3}, 10));
+        System.out.println(validStartingCity(
+                new int[]{5, 25, 15, 10, 15},
+                new int[]{1, 2, 1, 0, 3},
+                10));
     }
 
     // Note:
