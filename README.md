@@ -60,4 +60,4 @@
 | 54. | [Min Number Of Coins For Change](https://www.algoexpert.io/questions/min-number-of-coins-for-change) | Dynamic Programming | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Min%20Number%20Of%20Coins%20For%20Change/src/Solution.java) |
 | 55. | [Semordnilap](https://www.algoexpert.io/questions/semordnilap) | Strings | Easy | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Semordnilap/src/Solution.java) |
 | 56. | [Zero Sum Subarray](https://www.algoexpert.io/questions/zero-sum-subarray) | Arrays | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Zero%20Sum%20Subarray/src/Solution.java) |
-| 57. | [Valid Starting City - Greedy Algorithm](https://www.algoexpert.io/questions/valid-starting-city) | Greedy Algorithms | Medium | [Click here]() |
+| 57. | [Valid Starting City - Greedy Algorithm](https://www.algoexpert.io/questions/valid-starting-city) | Greedy Algorithms | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Valid%20Starting%20City%20-%20Greedy%20Algorithm/src/Solution.java) |
