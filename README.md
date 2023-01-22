@@ -65,4 +65,5 @@
 | 59. | [Search In Sorted Matrix](https://www.algoexpert.io/questions/search-in-sorted-matrix) | Searching | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Search%20In%20Sorted%20Matrix/src/Solution.java) |
 | 60. | [Sunset Views](https://www.algoexpert.io/questions/sunset-views) | Stacks | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Sunset%20Views/src/Solution.java) |
 | 61. | [Reverse Words In String](https://www.algoexpert.io/questions/reverse-words-in-string) | Strings | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Reverse%20Words%20In%20String/src/Program.java) |
-| 62. | [Stable Internships](https://www.algoexpert.io/questions/stable-internships) | Famous Algorithms | Medium | [Click here]() |
+| 62. | [Stable Internships](https://www.algoexpert.io/questions/stable-internships) | Famous Algorithms | Medium | [Click here](https://github.com/Harishankar-GitHub/AlgoExpert/blob/main/Stable%20Internships/src/Solution.java) |
+| 63. | [Minimum Characters For Words](https://www.algoexpert.io/questions/minimum-characters-for-words) | Strings | Medium | [Click here]() |
